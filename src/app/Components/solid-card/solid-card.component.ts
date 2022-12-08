@@ -10,6 +10,9 @@ export class SolidCardComponent {
     icon: "",
     amount: 0,
     text: "",
-    parcentage: 0
+    parcentage: 0,
+    color: "",
+    cornerIcon: "",
+    cornerImg: ""
   }
 }

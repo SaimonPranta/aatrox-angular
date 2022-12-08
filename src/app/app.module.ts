@@ -8,20 +8,23 @@ import { MaterialModule } from './Modules/material/material.module';
 import { HomeComponent } from './Pages/Dashboard/home/home.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { SolidCardComponent } from './Components/solid-card/solid-card.component';
-
+import { ImageCardComponent } from './Components/image-card/image-card.component';
+import { NgApexchartsModule } from "ng-apexcharts";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    SolidCardComponent
+    SolidCardComponent,
+    ImageCardComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    NgApexchartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,18 @@
+<mat-card class="example-card">
+    <img mat-card-image src={{item.img}} alt="Image">
+    
+    <mat-card-actions class="sub-wraper">
+      <div>
+        <mat-icon> favorite</mat-icon>
+        <span>{{item.love}}k</span>
+      </div>
+      <div>
+        <mat-icon> chat_bubble</mat-icon>
+        <span>{{item.comment}}</span>
+      </div>
+      
+      <span class="example-spacer"></span>
+
+      <p>{{item.daysAgo}} days ago</p>
+    </mat-card-actions>
+  </mat-card>

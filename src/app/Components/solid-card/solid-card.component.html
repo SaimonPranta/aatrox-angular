@@ -1,11 +1,15 @@
 <mat-card class="example-card">
-    <!-- <i class="fa-solid fa-user-group"></i> -->
-    <i class={{item.icon}}></i>
+    <i class={{item.icon}} style="color: {{item.color}}"></i>
+
     <p>{{item.amount}}<span>K</span></p>
     <span>{{item.text}}</span>
-    <button>
+    <button style="color: {{item.color}}">
         <mat-icon>expand_more</mat-icon>
         <span>{{item.parcentage}}%</span>
+        <span class="btn-background" style="background: {{item.color}}"></span>
     </button>
-    <!-- <i class="fa-solid fa-gears"></i> -->
+
+    
+    <mat-icon *ngIf="item.cornerIcon" class="location" style="background: {{item.color}}">{{item.cornerIcon}}</mat-icon>
+    <img *ngIf="item.cornerImg" class="img" src={{item.cornerImg}} alt="img">
 </mat-card>

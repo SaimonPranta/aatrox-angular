@@ -1,0 +1,23 @@
+.example-card {
+    margin: 15px;
+
+    img {
+        height: 300px;
+    }
+
+    .sub-wraper div {
+        opacity: .7;
+        display: flex;
+        align-items: center;
+        span{
+            margin: 0 15px 0 5px ;
+        }
+    }
+    p{
+        opacity: .7;
+    }
+
+    .example-spacer {
+        flex: 1 1 auto;
+    }
+}
