@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './Modules/material/material.module';
 import { HomeComponent } from './Pages/Dashboard/home/home.component';
 import { HeaderComponent } from './Components/header/header.component';
+import { SolidCardComponent } from './Components/solid-card/solid-card.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    SolidCardComponent
   ],
   imports: [
     BrowserModule,

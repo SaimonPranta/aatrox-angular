@@ -1,0 +1,26 @@
+.home-header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(217, 207, 207);
+    margin-bottom: 20px;
+    div{
+        display: flex;
+        align-items: center;
+        span{
+            font-size: .9rem;
+            opacity: .7;
+            padding: 0 5px;
+            position: relative;
+
+        }
+        span:nth-child(1)::after{
+            position: absolute;
+            content: "";
+            right: -1px;
+            height: 100%;
+            width: 1px;
+            background-color: #000;
+            opacity: .6;
+        }
+    }
+}

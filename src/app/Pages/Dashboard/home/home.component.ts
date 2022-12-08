@@ -7,4 +7,30 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  topCardInfo = [
+    {
+      icon: "fa-solid fa-user-group",
+      amount: 30.2,
+      text: "Total Followers",
+      parcentage: 12.6
+    },
+    {
+      icon: "fa-solid fa-user-group",
+      amount: 30.2,
+      text: "Total Followers",
+      parcentage: 12.6
+    },
+    {
+      icon: "fa-solid fa-user-group",
+      amount: 30.2,
+      text: "Total Followers",
+      parcentage: 12.6
+    },
+    {
+      icon: "fa-solid fa-user-group",
+      amount: 30.2,
+      text: "Total Followers",
+      parcentage: 12.6
+    }
+  ]
 }
