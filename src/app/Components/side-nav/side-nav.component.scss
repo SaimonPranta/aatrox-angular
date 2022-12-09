@@ -67,6 +67,9 @@
             p {
                 color: #a08484;
             }
+            .mat-icon{
+                display: none;
+            }
         }
 
         .right-nav-nemu,
@@ -115,6 +118,22 @@
     .active-sid-nav-wraper {
         transform: translateX(0px);
         position: fixed;
+
+        .right-nav-header .mat-icon {
+            position: absolute;
+            display: flex !important;
+            align-items: center;
+            justify-self: center;
+            height: 25px;
+            width: 25px;
+            top: 25px;
+            font-size: 1rem;
+            right: 10px;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 50%;
+            background-color: rgb(239, 229, 229);
+        }
 
     }
 

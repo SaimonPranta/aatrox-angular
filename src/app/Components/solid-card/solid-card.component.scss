@@ -55,6 +55,7 @@
         }
     }
     .location{
+        box-sizing:content-box;
         position: absolute;
         color: #fff;
         padding: 5px;
