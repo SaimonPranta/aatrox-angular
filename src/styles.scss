@@ -30,6 +30,17 @@ $aatrox-angular-theme: mat.define-light-theme((color: (primary: $aatrox-angular-
 @include mat.all-component-themes($aatrox-angular-theme);
 
 /* You can add global styles to this file, and also import other style files */
+/* width */
+
+* {
+  box-sizing: border-box;
+
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  ;
+}
 
 html,
 body {
@@ -44,28 +55,68 @@ body {
 
 
 .container {
-  padding: 5px 15px;
+  padding: 5px 35px;
 }
-sapn, p,h1, h2, h3, h4, h5, h6{
+
+sapn,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
+
 .col-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
   height: 100%;
   margin: 15px auto;
+  grid-gap: 20px;
 }
+
 .col-4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
   height: 100%;
   margin: 15px auto;
+  grid-gap: 20px;
 }
 
+.col-6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+  grid-gap: 18px;
+}
 
 .example-spacer {
   flex: 1 1 auto;
+}
+
+@media only screen and (min-width:200px) and (max-width:1250px) {
+  .col-4 {
+    grid-template-columns: 1fr 1fr;
+
+  }
+  .col-2 {
+    grid-template-columns: 1fr;
+  }
+
+
+}
+@media only screen and (min-width:200px) and (max-width: 700px) {
+  .col-4 {
+    grid-template-columns: 1fr;
+
+  }
+
+
 }

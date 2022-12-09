@@ -35,13 +35,8 @@
             <app-reach-impression></app-reach-impression>
         </div>
     </div>
-    <div class="col-2">
-        <div class="col-4">
-            <app-solid-card *ngFor="let infoObj of topCardInfo" [item]="infoObj"></app-solid-card>
-        </div>
-        <div class="col-4">
-            <app-solid-card *ngFor="let infoObj of topCardInfo" [item]="infoObj"></app-solid-card>
-        </div>
+    <div class="col-6">
+        <app-solid-card *ngFor="let infoObj of solidLargeCardInfo" [item]="infoObj"></app-solid-card>
     </div>
     <div class="col-2">
         <div class="grow-wraper">
@@ -54,7 +49,7 @@
             <div class="gorw-header">
                 <h4>Comment history</h4>
             </div>
-            <app-like-history></app-like-history>
+            <app-comment-history></app-comment-history>
         </div>
     </div>
     <div class="grow-wraper">

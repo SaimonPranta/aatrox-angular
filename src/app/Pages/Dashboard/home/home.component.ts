@@ -109,4 +109,60 @@ export class HomeComponent {
       cornerImg: ""
     }
   ];
+  solidLargeCardInfo = [
+    {
+      icon: "",
+      amount: 30.2,
+      text: "Likes Received",
+      parcentage: 12.6,
+      color: "#8B5CF6",
+      cornerIcon: "",
+      cornerImg: ""
+    },
+    {
+      icon: "",
+      amount: 9.2,
+      text: "Avg. Likes Received",
+      parcentage: 58.6,
+      color: "#22C55E",
+      cornerIcon: "location_on",
+      cornerImg: ""
+    },
+    {
+      icon: "",
+      amount: 1.2,
+      text: "Feedback",
+      parcentage: 5.6,
+      color: "#EF4444",
+      cornerIcon: "",
+      cornerImg: "https://aatrox-demo.vercel.app/preview/layout3/assets/images/faces/2.jpg"
+    },
+    {
+      icon: "",
+      amount: 18.2,
+      text: "Avg Feedback",
+      parcentage: 5.6,
+      color: "#6366F1",
+      cornerIcon: "",
+      cornerImg: ""
+    },
+    {
+      icon: "",
+      amount: 30.2,
+      text: "Avg Feedback",
+      parcentage: 12.6,
+      color: "#8B5CF6",
+      cornerIcon: "",
+      cornerImg: ""
+    },
+    {
+      icon: "",
+      amount: 9.2,
+      text: "Feedback",
+      parcentage: 58.6,
+      color: "#22C55E",
+      cornerIcon: "location_on",
+      cornerImg: "https://aatrox-demo.vercel.app/preview/layout3/assets/images/faces/2.jpg"
+    }
+  ];
 }

@@ -16,6 +16,7 @@ import { ReachImpressionComponent } from './Components/reach-impression/reach-im
 import { LikeHistoryComponent } from './Components/like-history/like-history.component';
 import { CommentHistoryComponent } from './Components/comment-history/comment-history.component';
 import { PostingHabitsComponent } from './Components/posting-habits/posting-habits.component';
+import { SideNavComponent } from './Components/side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { PostingHabitsComponent } from './Components/posting-habits/posting-habi
     LikeHistoryComponent,
     CommentHistoryComponent,
     PostingHabitsComponent,
+    SideNavComponent,
   ],
   imports: [
     BrowserModule,

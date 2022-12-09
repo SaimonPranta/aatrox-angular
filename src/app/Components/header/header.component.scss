@@ -1,6 +1,10 @@
-
+.mat-toolbar{
+    background-color: transparent;
+    height: 80px;
+    padding: 0;
+}
 .mega-menu {
-    margin: 20px;
+    margin: auto 25px auto 10px;
     display: flex;
     align-items: center;
     color: #47404F;
@@ -12,7 +16,8 @@
 }
 
 .head-search {
-    padding: 5px 15px;
+    padding: 0 10px;
+    height: 40px;
     display: flex;
     align-items: center;
     background-color: #e2e8f0;
@@ -20,10 +25,12 @@
     input {
         border: 0px;
         outline: 0px;
+        padding: 0 7px 0 5px;
         background-color: #e2e8f0;
     }
     .mat-icon{
         opacity: .4;
+        cursor: pointer;
     }
 
 }

@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  handleSideNav = () => {
+    console.log(document.getElementById("menu-btn"))
+    document.getElementById("sid-nav")?.classList.toggle("active-sid-nav-wraper")
+    document.getElementById("main-wraper")?.classList.toggle("active-main-wraper")
+    
+  }
+  checkbtn = () => {
+    console.log(document.getElementById("menu-btn"))
 
+  }
+  
+  
 }

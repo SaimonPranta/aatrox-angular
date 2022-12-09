@@ -1,5 +1,5 @@
 <mat-card class="example-card">
-    <i class={{item.icon}} style="color: {{item.color}}"></i>
+    <i *ngIf="item.icon" class={{item.icon}} style="color: {{item.color}}"></i>
 
     <p>{{item.amount}}<span>K</span></p>
     <span>{{item.text}}</span>

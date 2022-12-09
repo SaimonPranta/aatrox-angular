@@ -1,5 +1,6 @@
 <mat-toolbar>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <button mat-icon-button (click)="handleSideNav()" class="example-icon" id="menu-btn"
+        aria-label="Example icon-button with menu icon">
         <mat-icon>menu</mat-icon>
     </button>
     <div class="mega-menu">
@@ -20,7 +21,7 @@
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
         <mat-icon>notifications</mat-icon>
     </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon" (click)="checkbtn()">
         <mat-icon>account_circle</mat-icon>
     </button>
 </mat-toolbar>

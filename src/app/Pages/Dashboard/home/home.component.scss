@@ -2,8 +2,14 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgb(217, 207, 207);
-    margin-bottom: 20px;
+    padding: 20px;
 
+    h4{
+        color: #583737;
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin-right: 5px;
+    }
     div {
         display: flex;
         align-items: center;
@@ -29,7 +35,6 @@
 }
 
 .grow-wraper {
-    // border: 1px solid red;
     box-shadow: rgb(177, 160, 160) 1px 1px 5px;
     background-color: #FFFFFF;
     border-radius: 10px;
