@@ -1,19 +1,22 @@
-.home-header{
+.home-header {
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgb(217, 207, 207);
     margin-bottom: 20px;
-    div{
+
+    div {
         display: flex;
         align-items: center;
-        span{
+
+        span {
             font-size: .9rem;
             opacity: .7;
             padding: 0 5px;
             position: relative;
 
         }
-        span:nth-child(1)::after{
+
+        span:nth-child(1)::after {
             position: absolute;
             content: "";
             right: -1px;
@@ -22,5 +25,27 @@
             background-color: #000;
             opacity: .6;
         }
+    }
+}
+
+.grow-wraper {
+    // border: 1px solid red;
+    margin-bottom: 500px;
+    box-shadow: rgb(177, 160, 160) 1px 1px 5px;
+    border-radius: 10px;
+    .gorw-header{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(208, 194, 194);
+        padding: 20px 20px;
+        margin-bottom: 20px;
+        color: rgb(122, 106, 106);
+        h4{
+            font-weight: 450;
+        }
+    }
+    .grow-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }

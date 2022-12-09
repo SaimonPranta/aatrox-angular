@@ -7,13 +7,20 @@
         </div>
     </div>
     <div class="card-container">
-        <app-solid-card *ngFor="let infoObj of topCardInfo" [item]="infoObj" ></app-solid-card>
+        <app-solid-card *ngFor="let infoObj of topCardInfo" [item]="infoObj"></app-solid-card>
     </div>
     <div class="card-container">
         <app-image-card *ngFor="let infoObj of imgCardInfo" [item]="infoObj"></app-image-card>
     </div>
-    <div>
+    <div class=" grow-wraper">
+        <div class="gorw-header">
+            <h4>Follower Growth</h4>
 
-        
+            <h4>Follower Growth</h4>
+        </div>
+        <div class="grow-footer">
+            <app-follower-growth-details></app-follower-growth-details>
+            <app-follower-growth></app-follower-growth>
+        </div>
     </div>
 </div>

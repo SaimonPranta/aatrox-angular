@@ -10,6 +10,8 @@ import { HeaderComponent } from './Components/header/header.component';
 import { SolidCardComponent } from './Components/solid-card/solid-card.component';
 import { ImageCardComponent } from './Components/image-card/image-card.component';
 import { NgApexchartsModule } from "ng-apexcharts";
+import { FollowerGrowthComponent } from './Components/follower-growth/follower-growth.component';
+import { FollowerGrowthDetailsComponent } from './Components/follower-growth-details/follower-growth-details.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { NgApexchartsModule } from "ng-apexcharts";
     HeaderComponent,
     SolidCardComponent,
     ImageCardComponent,
+    FollowerGrowthComponent,
+    FollowerGrowthDetailsComponent,
   ],
   imports: [
     BrowserModule,
