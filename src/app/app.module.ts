@@ -12,6 +12,10 @@ import { ImageCardComponent } from './Components/image-card/image-card.component
 import { NgApexchartsModule } from "ng-apexcharts";
 import { FollowerGrowthComponent } from './Components/follower-growth/follower-growth.component';
 import { FollowerGrowthDetailsComponent } from './Components/follower-growth-details/follower-growth-details.component';
+import { ReachImpressionComponent } from './Components/reach-impression/reach-impression.component';
+import { LikeHistoryComponent } from './Components/like-history/like-history.component';
+import { CommentHistoryComponent } from './Components/comment-history/comment-history.component';
+import { PostingHabitsComponent } from './Components/posting-habits/posting-habits.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +26,10 @@ import { FollowerGrowthDetailsComponent } from './Components/follower-growth-det
     ImageCardComponent,
     FollowerGrowthComponent,
     FollowerGrowthDetailsComponent,
+    ReachImpressionComponent,
+    LikeHistoryComponent,
+    CommentHistoryComponent,
+    PostingHabitsComponent,
   ],
   imports: [
     BrowserModule,

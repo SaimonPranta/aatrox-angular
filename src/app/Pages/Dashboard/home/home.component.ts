@@ -71,4 +71,42 @@ export class HomeComponent {
       daysAgo: 32
     }
   ]
+  solidCardInfo = [
+    {
+      icon: "fa-solid fa-user-group",
+      amount: 30.2,
+      text: "Reach",
+      parcentage: 12.6,
+      color: "#8B5CF6",
+      cornerIcon: "",
+      cornerImg: ""
+    },
+    {
+      icon: "fa-solid fa-gears",
+      amount: 9.2,
+      text: "Engagement",
+      parcentage: 58.6,
+      color: "#22C55E",
+      cornerIcon: "",
+      cornerImg: ""
+    },
+    {
+      icon: "fa-solid fa-address-book",
+      amount: 1.2,
+      text: "Connect",
+      parcentage: 5.6,
+      color: "#EF4444",
+      cornerIcon: "",
+      cornerImg: ""
+    },
+    {
+      icon: "fa-regular fa-envelope",
+      amount: 18.2,
+      text: "Rate Review",
+      parcentage: 5.6,
+      color: "#6366F1",
+      cornerIcon: "",
+      cornerImg: ""
+    }
+  ];
 }

@@ -6,21 +6,61 @@
             <span>Dashboards V5</span>
         </div>
     </div>
-    <div class="card-container">
+    <div class="col-4">
         <app-solid-card *ngFor="let infoObj of topCardInfo" [item]="infoObj"></app-solid-card>
     </div>
-    <div class="card-container">
+    <div class="col-4">
         <app-image-card *ngFor="let infoObj of imgCardInfo" [item]="infoObj"></app-image-card>
     </div>
-    <div class=" grow-wraper">
+    <div class="grow-wraper">
         <div class="gorw-header">
             <h4>Follower Growth</h4>
 
             <h4>Follower Growth</h4>
         </div>
-        <div class="grow-footer">
+        <div class="col-2">
             <app-follower-growth-details></app-follower-growth-details>
             <app-follower-growth></app-follower-growth>
         </div>
+    </div>
+    <div class="col-4">
+        <app-solid-card *ngFor="let infoObj of solidCardInfo" [item]="infoObj"></app-solid-card>
+    </div>
+    <div class=" grow-wraper">
+        <div class="gorw-header">
+            <h4>Reach Impressions History</h4>
+        </div>
+        <div>
+            <!-- <app-follower-growth></app-follower-growth> -->
+            <app-reach-impression></app-reach-impression>
+        </div>
+    </div>
+    <div class="col-2">
+        <div class="col-4">
+            <app-solid-card *ngFor="let infoObj of topCardInfo" [item]="infoObj"></app-solid-card>
+        </div>
+        <div class="col-4">
+            <app-solid-card *ngFor="let infoObj of topCardInfo" [item]="infoObj"></app-solid-card>
+        </div>
+    </div>
+    <div class="col-2">
+        <div class="grow-wraper">
+            <div class="gorw-header">
+                <h4>Like history</h4>
+            </div>
+            <app-like-history></app-like-history>
+        </div>
+        <div class="grow-wraper">
+            <div class="gorw-header">
+                <h4>Comment history</h4>
+            </div>
+            <app-like-history></app-like-history>
+        </div>
+    </div>
+    <div class="grow-wraper">
+        <div class="gorw-header">
+            <h4>Comment history</h4>
+        </div>
+        <app-posting-habits></app-posting-habits>
     </div>
 </div>
