@@ -1,4 +1,6 @@
 <div class="container">
+    <!-- Top Solid Cadr Section -->
+
     <div class="home-header">
         <h4>Dashboard V5</h4>
         <div>
@@ -9,9 +11,11 @@
     <div class="col-4">
         <app-solid-card *ngFor="let infoObj of topCardInfo" [item]="infoObj"></app-solid-card>
     </div>
+
+    <!-- Image Cadr Section -->
+
     <div class="img-card-head">
         <h4>Most <span>Recent Media</span> </h4>
-
         <select>
             <option value="Volvo">Volvo</option>
             <option value="Volvo">Sab</option>
@@ -23,6 +27,9 @@
     <div class="col-4">
         <app-image-card *ngFor="let infoObj of imgCardInfo" [item]="infoObj"></app-image-card>
     </div>
+
+    <!-- Follwer Growth Graph Section -->
+
     <div class="grow-wraper">
         <div class="gorw-header">
             <h4>Follower Growth</h4>
@@ -34,21 +41,33 @@
             <app-follower-growth></app-follower-growth>
         </div>
     </div>
+
+    <!-- Middle Solid Card Section -->
+
     <div class="col-4">
         <app-solid-card *ngFor="let infoObj of solidCardInfo" [item]="infoObj"></app-solid-card>
     </div>
+
+    <!-- Reach Impressions History Graph Section -->
+
     <div class=" grow-wraper">
         <div class="gorw-header">
             <h4>Reach Impressions History</h4>
         </div>
         <div>
-            <!-- <app-follower-growth></app-follower-growth> -->
             <app-reach-impression></app-reach-impression>
         </div>
     </div>
+
+    <!-- Last Solid Card Section -->
+
+
     <div class="col-6">
         <app-solid-card *ngFor="let infoObj of solidLargeCardInfo" [item]="infoObj"></app-solid-card>
     </div>
+
+    <!-- Like Comment History Graph Section -->
+
     <div class="col-2">
         <div class="grow-wraper">
             <div class="gorw-header">
@@ -63,12 +82,18 @@
             <app-comment-history></app-comment-history>
         </div>
     </div>
+
+    <!-- Posting Habits Graph Section -->
+
     <div class="grow-wraper">
         <div class="gorw-header">
             <h4>Posting Habits</h4>
         </div>
         <app-posting-habits></app-posting-habits>
     </div>
+
+    <!-- Footer Section -->
+
     <div class="img-card-head footer-btn">
         <button mat-flat-button color="primary">Buy Aatrox</button>
         <p>All rights reserved © UI Lib 2021</p>

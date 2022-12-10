@@ -12,9 +12,14 @@ export class SideNavComponent {
     
   }
   handleSideMenu = () => {
-    console.log(document.getElementById("menu-btn"))
     document.getElementById("sid-nav")?.classList.toggle("active-sid-nav-wraper")
     document.getElementById("main-wraper")?.classList.toggle("active-main-wraper")
     
+  }
+  closeSideNav = () => {
+    document.getElementById("sid-nav")?.classList.remove("active-sid-nav-wraper")
+    document.getElementById("main-wraper")?.classList.remove("active-main-wraper")
+    document.getElementById("sid-nav-blur-filter")?.classList.remove("active-sid-nav-blur-filter")
+
   }
 }

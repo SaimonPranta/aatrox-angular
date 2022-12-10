@@ -10,6 +10,8 @@ export class HeaderComponent {
     // console.log(document.getElementById("menu-btn")?.)
     document.getElementById("sid-nav")?.classList.toggle("active-sid-nav-wraper")
     document.getElementById("main-wraper")?.classList.toggle("active-main-wraper")
+    document.getElementById("sid-nav-blur-filter")?.classList.toggle("active-sid-nav-blur-filter")
+
     
   }
   handleMegaMenu = () => {

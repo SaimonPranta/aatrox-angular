@@ -7,8 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'aatrox-angular';
-  closeSideNav = () => {
-    document.getElementById("sid-nav")?.classList.remove("active-sid-nav-wraper")
-    document.getElementById("main-wraper")?.classList.remove("active-main-wraper")
-  }
+  
 }
