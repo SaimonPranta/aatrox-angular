@@ -17,6 +17,14 @@ import { LikeHistoryComponent } from './Components/like-history/like-history.com
 import { CommentHistoryComponent } from './Components/comment-history/comment-history.component';
 import { PostingHabitsComponent } from './Components/posting-habits/posting-habits.component';
 import { SideNavComponent } from './Components/side-nav/side-nav.component';
+import { ItemOneComponent } from './Components/SubSidNav/item-one/item-one.component';
+import { ItemTowComponent } from './Components/SubSidNav/item-tow/item-tow.component';
+import { ItemThreeComponent } from './Components/SubSidNav/item-three/item-three.component';
+import { ItemFourComponent } from './Components/SubSidNav/item-four/item-four.component';
+import { ItemFiveComponent } from './Components/SubSidNav/item-five/item-five.component';
+import { ItemSixComponent } from './Components/SubSidNav/item-six/item-six.component';
+import { ItemSevenComponent } from './Components/SubSidNav/item-seven/item-seven.component';
+import { MegaMenuComponent } from './Modals/mega-menu/mega-menu.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +40,14 @@ import { SideNavComponent } from './Components/side-nav/side-nav.component';
     CommentHistoryComponent,
     PostingHabitsComponent,
     SideNavComponent,
+    ItemOneComponent,
+    ItemTowComponent,
+    ItemThreeComponent,
+    ItemFourComponent,
+    ItemFiveComponent,
+    ItemSixComponent,
+    ItemSevenComponent,
+    MegaMenuComponent,
   ],
   imports: [
     BrowserModule,

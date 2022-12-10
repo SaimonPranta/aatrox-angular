@@ -3,7 +3,7 @@
         aria-label="Example icon-button with menu icon">
         <mat-icon>menu</mat-icon>
     </button>
-    <div class="mega-menu">
+    <div class="mega-menu" (click)="handleMegaMenu()">
         <span>Mega Menu</span>
         <mat-icon>expand_more</mat-icon>
     </div>
@@ -21,7 +21,9 @@
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
         <mat-icon>notifications</mat-icon>
     </button>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon" (click)="checkbtn()">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
         <mat-icon>account_circle</mat-icon>
     </button>
 </mat-toolbar>
+
+<app-mega-menu></app-mega-menu>

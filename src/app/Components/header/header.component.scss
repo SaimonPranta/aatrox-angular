@@ -4,12 +4,14 @@
     padding: 0;
 }
 .mega-menu {
+    position: relative;
     margin: auto 25px auto 10px;
     display: flex;
     align-items: center;
     color: #47404F;
     font-weight: 100;
     font-size: .9rem;
+    cursor: pointer;
     .mat-icon{
         opacity: .4;
     }
@@ -38,5 +40,31 @@
     .mat-icon{
         font-weight: 100;
         color: yellow !important;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:630px) {
+    .head-search {
+        height: 35px;
+        width: 150px;
+        input {
+            width: 100%;
+        }
+    
+    }
+    .mega-menu {
+        margin: auto 5px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:520px) {
+    .head-search {
+        height: 35px;
+        width: 150px;
+        input {
+            width: 100%;
+        }
+    
+    }
+    .mega-menu {
+        display: none;
     }
 }

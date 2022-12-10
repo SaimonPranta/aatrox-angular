@@ -10,14 +10,14 @@ import {
   ApexMarkers
 } from "ng-apexcharts";
 
-export type ChartOptions = {
-  series: ApexAxisChartSeries;
-  chart: ApexChart;
-  xaxis: ApexXAxis;
-  stroke: ApexStroke;
-  tooltip: ApexTooltip;
-  dataLabels: ApexDataLabels;
-};
+// export type ChartOptions = {
+//   series: ApexAxisChartSeries;
+//   chart: ApexChart;
+//   xaxis: ApexXAxis;
+//   stroke: ApexStroke;
+//   tooltip: ApexTooltip;
+//   dataLabels: ApexDataLabels;
+// };
 
 @Component({
   selector: 'app-reach-impression',
@@ -38,7 +38,10 @@ export class ReachImpressionComponent {
   ]
   chart: ApexChart = {
     height: 350,
-    type: "area"
+    type: "area",
+    zoom: {
+      enabled: false
+    }
   }
   dataLabels: ApexDataLabels = {
     enabled: false

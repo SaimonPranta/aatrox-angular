@@ -51,7 +51,7 @@ export class FollowerGrowthComponent {
     curve: "smooth"
   }
   title: ApexTitleSubtitle = {
-    text: "Product Trends by Month",
+    text: "",
     align: "left"
   }
   grid: ApexGrid = {

@@ -9,6 +9,17 @@
     <div class="col-4">
         <app-solid-card *ngFor="let infoObj of topCardInfo" [item]="infoObj"></app-solid-card>
     </div>
+    <div class="img-card-head">
+        <h4>Most <span>Recent Media</span> </h4>
+
+        <select>
+            <option value="Volvo">Volvo</option>
+            <option value="Volvo">Sab</option>
+            <option value="Volvo">Opel</option>
+            <option value="Volvo">Audi</option>
+        </select>
+
+    </div>
     <div class="col-4">
         <app-image-card *ngFor="let infoObj of imgCardInfo" [item]="infoObj"></app-image-card>
     </div>
@@ -54,8 +65,12 @@
     </div>
     <div class="grow-wraper">
         <div class="gorw-header">
-            <h4>Comment history</h4>
+            <h4>Posting Habits</h4>
         </div>
         <app-posting-habits></app-posting-habits>
+    </div>
+    <div class="img-card-head footer-btn">
+        <button mat-flat-button color="primary">Buy Aatrox</button>
+        <p>All rights reserved © UI Lib 2021</p>
     </div>
 </div>

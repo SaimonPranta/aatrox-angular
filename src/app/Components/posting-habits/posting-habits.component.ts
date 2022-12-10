@@ -101,7 +101,7 @@ export class PostingHabitsComponent {
   }
   colors: any = ["#008FFB"]
   title: ApexTitleSubtitle = {
-    text: "HeatMap Chart (Single color)"
+    text: ""
   }
   plotOptions: ApexPlotOptions = {
     heatmap: {

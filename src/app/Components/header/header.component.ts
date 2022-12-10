@@ -7,13 +7,14 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   handleSideNav = () => {
-    console.log(document.getElementById("menu-btn"))
+    // console.log(document.getElementById("menu-btn")?.)
     document.getElementById("sid-nav")?.classList.toggle("active-sid-nav-wraper")
     document.getElementById("main-wraper")?.classList.toggle("active-main-wraper")
     
   }
-  checkbtn = () => {
-    console.log(document.getElementById("menu-btn"))
+  handleMegaMenu = () => {
+    document.getElementById("mega-menu-wraper")?.classList.toggle("active-mega-menu-wraper")
+    document.getElementById("mega-menu-wraper-filter")?.classList.toggle("active-mega-menu-wraper-filter")
 
   }
   

@@ -31,6 +31,82 @@ $aatrox-angular-theme: mat.define-light-theme((color: (primary: $aatrox-angular-
 
 /* You can add global styles to this file, and also import other style files */
 /* width */
+// @import url(./assets/scss/sub-side-nav.scss);
+.right-nav {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  background-color: #ffffff;
+  min-width: calc(100% - 85px);
+  height: 100%;
+  // left: 80px;
+  left: 9999999999px;
+
+  .right-nav-header {
+    padding: 20px 10px 10px 20px;
+
+    h2 {
+      color: #8B5CF6;
+      font-size: 1.3rem;
+      font-weight: 300;
+    }
+
+    p {
+      color: #a08484;
+    }
+    
+  }
+
+  .right-nav-nemu,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      color: rgb(115, 100, 100);
+      padding: 15px 10px 15px 20px;
+    }
+
+    .mat-icon {
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+    }
+    a:hover {
+      background-color: rgb(237, 229, 229);
+      color: #8B5CF6;
+    }
+  }
+}
+
+.left-nav ul li button:focus {
+  
+  .right-nav {
+    left: 80px ;
+  }
+}
+.left-nav ul li button:hover {
+  .right-nav {
+    left: 80px !important;
+
+  }
+}
+
+
+
+
+
+
+
+
 
 * {
   box-sizing: border-box;
@@ -106,12 +182,14 @@ h6 {
     grid-template-columns: 1fr 1fr;
 
   }
+
   .col-2 {
     grid-template-columns: 1fr;
   }
 
 
 }
+
 @media only screen and (min-width:200px) and (max-width: 700px) {
   .col-4 {
     grid-template-columns: 1fr;

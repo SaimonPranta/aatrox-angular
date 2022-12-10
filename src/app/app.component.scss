@@ -3,6 +3,9 @@
     // grid-template-columns: 300px calc(100% - 300px);
     max-width: 100%;
     overflow-x: hidden;
+    .blur-filter{
+        display: none;
+    }
 }
 
 .page-waraper {
@@ -27,14 +30,16 @@
         z-index: 3;
     }
 
-    .active-main-wraper::after{
+    .active-main-wraper .blur-filter{
+        display: block;
         position: fixed;
-        content: "";
+        // content: "";
         left: 0;
         top: 0;
         height: 100vh;
         width: 100vw;
         background-color: rgba(0, 0, 0, 0.408);
+        z-index: 2;
     }
 
 
